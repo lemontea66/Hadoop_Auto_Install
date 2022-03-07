@@ -14,6 +14,7 @@
 命令行内运行下段代码即可
 
     wget -q http://file.shujuhe.cn/master.sh && sh master.sh
+    source /etc/profile
 
 
 
