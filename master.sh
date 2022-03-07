@@ -18,7 +18,7 @@ preinfo() {
 	echo "———————————————————Hadoop环境一键安装脚本——————————————————"
 	echo "       适用系统：CentOS 6.X"
 	echo "       更多教程请查阅:  https://www.shujuhe.cn/archives/44/"
-	echo "       脚本更新: 2022/03/07"
+	echo "       脚本更新: 2022/03/08"
 	echo "       作者：董宇轩 LemonTea"
 	echo "——————————————————————————————————————————————————————————————————"
 	sleep 3
@@ -51,6 +51,7 @@ checkjdk() {
 			cd /usr/lib/jvm > /dev/null
 			wget http://file.shujuhe.cn/jdk-8u5-linux-i586.tar.gz
 			tar -zxvf jdk-8u5-linux-i586.tar.gz
+			mv ./jdk1.8.0_05 ./default-java
 			clear
 	        
 	fi
@@ -79,7 +80,7 @@ vimprofile() {
 };
 
 last(){
-	echo "———————————————————Hadoop环境一键安装脚本——————————————————"
+	echo "———————————————————Hadoop环境一键安装脚本————————————————————————————"
 	echo "       适用系统：CentOS 6.X"
 	echo "       更多教程请查阅:  https://www.shujuhe.cn/archives/44/"
 	echo "       脚本更新: 2022/03/07"

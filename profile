@@ -77,7 +77,7 @@ done
 unset i
 unset -f pathmunge
 #JAVA_HOME
-export JAVA_HOME=/usr/lib/jvm/jdk1.8.0_05
+export JAVA_HOME=/usr/lib/jvm/default-java
 export PATH=$PATH:$JAVA_HOME/bin
 export JAVA_LIBRARY_PATH=/usr/local/hadoop/lib/native
 #HADOOP_HOME
