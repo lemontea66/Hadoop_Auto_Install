@@ -1,9 +1,5 @@
 # Hadoop_Auto_Install
  CentOS下Hadoop环境一键安装脚本
-!!!
-<center><h1>Hadoop一键安装脚本</h1></center>
-<center>
-!!!
 
 ![][1]
 
